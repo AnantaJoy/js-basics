@@ -3,7 +3,7 @@ let stdInfo = function (name, age, dept) {
         name : name,
         age : age,
         dept : dept,
-        sayHello: (){
+        sayHello: function(){
             let welcomeMessage = `Hi ${this.name}, welcome to the dept of ${this.dept}`;
             console.log(welcomeMessage);
         }
