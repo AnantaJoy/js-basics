@@ -4,10 +4,13 @@ function createCircle(radius) {
     return {
         radius,
         draw: function() {
-            console.log('draw');
+            console.log('draw', radius);
         }
     };
 }
 
 const circle = createCircle(1);
 circle.draw();
+
+const circle2 = createCircle(2);
+circle2.draw();
